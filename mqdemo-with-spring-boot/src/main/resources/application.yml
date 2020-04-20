@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+rocketmq-common:
+  namesrvAddrs: 10.19.1.65:9876
+  topic: self-test-topic
+
+rocketmq-producer:
+  producerGroup: self-test-topic-producer
+
+rocketmq-consumer:
+  comsumerGroup: please_rename_unique_group_name_4
