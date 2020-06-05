@@ -66,7 +66,7 @@ public class TransactionProducer {
                     /*
                      * Create a message instance, specifying topic, tag and message body.
                      */
-                    Message msg = new Message("test-b" /* Topic */,
+                    Message msg = new Message("self-test-topic" /* Topic */,
                             "TagA" /* Tag */,
                     ("Hello RocketMQ " + i).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
                     );
